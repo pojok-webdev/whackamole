@@ -1,0 +1,106 @@
+/* CSS Document */
+body {
+	font: bold 15px Tahoma;	
+	margin: 146px 0 0 0;
+	background: #F6F6F6 url(../images/bg-login.jpg) repeat-x;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	background: url(../images/bg-form.jpg) no-repeat;
+	width: 341px;
+	height: 256px;
+	margin: 0 auto;
+}
+
+.form {
+	font: normal 13px Tahoma;
+	padding: 135px 20px 0 0;
+	text-align: right;
+}
+
+.button {
+	text-align: right;
+	padding: 0 15px 0 0;
+}
+
+input{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: url(../images/bg-input.jpg) repeat-x;
+	border: solid 1px #CCCCCC;
+	margin: 0;
+	text-align: center;
+	padding: 2px;
+	margin: 5px 0;
+}
+
+input:focus, input:hover{
+	background: #FFF;
+	border: solid 1px #00CCFF;
+}
+
+.submit {
+	/*background: url(../images/bg-button.jpg) repeat-x;*/
+	background: none;
+	width: 92px;
+	height: 50px;
+	border: 0;
+	font-weight: bold;
+	color:#990000;	
+}
+
+.submit:hover {
+	cursor: pointer;
+	background: none;
+	border: 0;
+}
+
+.footer{
+	margin-top: 100px;
+	font: normal 11px Tahoma;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #663300;
+}
+
+img {
+	border: 0;
+}
+
+a:hover {
+	color: #990000;
+}
+
+/*Untuk Message*/
+.info {
+	font-size: 12px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #dce3ff url(../images/info.png) no-repeat left center;
+	width: 240px;
+	height: 30px;
+	padding: 15px 0 0 40px;
+	margin: 10px auto;
+	border: solid 1px #a4b8ed;
+}
+
+.error {
+	font-size: 12px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #ffcecf url(../images/error.png) no-repeat left center;
+	width: 240px;
+	height: 30px;
+	padding: 15px 0 0 40px;
+	margin:10px auto;
+	border: solid 1px #df8f90;
+}
+/*Akhir Message*/

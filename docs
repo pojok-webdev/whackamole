@@ -1,0 +1,141 @@
+#####################################################################################################
+MENU DINAMIS
+#####################################################################################################
+Ada dua jenis menu_type, yaitu tautan dan halaman. Tautan dipergunakan untuk link external, 
+sehingga seluruh alamat url harus dituliskan lengkap. 
+sedangkan halaman adalah halaman yang dibuat oleh admin, 
+diisikan dengan cara memilih halaman yang telah dibuat sebelumnya.
+Konsekwensi dari menu dinamis adalah menu bawaan program ini 
+dapat dihapus atau di alihkan ke tautan yang tidak sesuai. 
+Untuk mereset menu bawaan program ini, 
+maka harus secara manual dibuat atau di edit ulang tautan dari menu2 tersebut.
+url fix untuk menu:
+
+http://localhost/kpi/index.php
+http://localhost/kpi/index.php/front_end/show_about/page
+http://localhost/kpi/index.php/front_end/contact_us/page
+http://localhost/kpi/index.php/front_end/show_news/page
+http://localhost/kpi/index.php/front_end/show_iklan_baris/page
+
+Menu-menu di atas menggunakan menu_type "tautan"
+
+Top menu dipergunakan untuk menempatkan menu pada bar, terlihat tanpa melakukan hover.
+ID parent dipergunakan oleh submenu untuk memilih Top menu, 
+sehingga submenu ini dapat ditampilkan ketika dilakukan hover pada Top menu
+Menu yang ditampilkan hanyalah menu yang statusnya Aktif
+#####################################################################################################
+update terakhir 6 okt 2012 oleh puji@padi.net.id
+#####################################################################################################
+###   ##  ###  #   ###   ###   ###
+#  # #  # #  # #   #  # #   # #
+###  #### #  # #   #  # #   # #
+#    #  # #  # #   #  # #   # #
+#    #  # ###  # # ###   ###   ###
+#####################################################################################################
+BAHASA
+#####################################################################################################
+Bahasa yang dimaksud disini adalah bahasa pada aplikasi, bukan bahasa dari Content. 
+Saat ini belum tersedia pilihan bahasa untuk content, 
+seperti berita, banner, iklan baris dan Custom Page.
+
+Bahasa aplikasi dapat diatur sesuai kebutuhan, dengan menyalin file padi_lang.php 
+dan diletakkan dalam folder sesuai dengan nama bahasanya dalam folder language. 
+Selanjutnya file padi_lang.php tadi di edit sesuai dengan 
+bahasa yang dimaksud sehingga aplikasi dapat berganti bahasa.
+
+#####################################################################################################
+update terakhir 6 okt 2012 oleh puji@padi.net.id
+#####################################################################################################
+
+#####################################################################################################
+THEME
+#####################################################################################################
+Theme meliputi image dan css, tidak merubah susunan halaman.
+#####################################################################################################
+update terakhir 7 okt 2012 oleh puji@padi.net.id
+#####################################################################################################
+
+
+#####################################################################################################
+MAGAZINE
+#####################################################################################################
+Majalah disusun fixed 3 X 3. Pojok kiri atas adalah yang paling baru, 
+kemudian dilanjutkan ke baris berikutnya dari sebelah kiri.
+Ada jenis file PDF yang tidak dapat diupload.
+#####################################################################################################
+update terakhir 9 okt 2012 oleh puji@padi.net.id
+#####################################################################################################
+
+
+#####################################################################################################
+PROPERTIES
+#####################################################################################################
+pada Property, struktur table berasal dari klien, sehingga susunannya tidak sesuai dengan table2 
+yg lainnya. 
+susunan ini menyebabkan terdapat permasalahan pada ORM. Diantaranya adalah permasalahan struktur.
+Override pada ORM mengakibatkan masalah lain, diantaranya pengurutan.
+#####################################################################################################
+update terakhir 16 okt 2012 oleh puji@padi.net.id
+#####################################################################################################
+
+
+#####################################################################################################
+ACCESS_LOG
+#####################################################################################################
+mencatat semua aktivitas di back_end. tidak dilakukan pada front_end.
+1. Login
+2. Logout
+3. Change About us
+#####################################################################################################
+update terakhir 16 okt 2012 oleh puji@padi.net.id
+#####################################################################################################
+
+
+
+#####################################################################################################
+RECYCLE BIN
+#####################################################################################################
+Setiap penghapusan masuk ke Recycle bin.
+Yang sudah menggunakan recycle bin:
+Magazine (sudah dapat permanen delete)
+#####################################################################################################
+update terakhir 1 nov 2012 oleh puji@padi.net.id
+#####################################################################################################
+
+
+#####################################################################################################
+DATA ENTRY ACT
+#####################################################################################################
+Data Entry memerlukan approval dari Administrator untuk menghapus atau mendelete record
+#####################################################################################################
+update terakhir 1 nov 2012 oleh puji@padi.net.id
+#####################################################################################################
+
+
+#####################################################################################################
+SHOW_OBJECT
+#####################################################################################################
+Yang sudah disederhanakan:
+Administrator:
+City,(dg penghapusan sementara),
+City_parts,(dg penghapusan sementara),
+Water_providers,(dg penghapusan sementara),
+Directions,(dg penghapusan sementara),
+Documents,(dg penghapusan sementara),
+Banks(dg penghapusan sementara),
+
+Entry Data:
+News(dg penghapusan sementara),
+Banners(dg penghapusan sementara),
+Advertises(dg penghapusan sementara),
+Pages(dg penghapusan sementara),
+Menu(dg penghapusan sementara),
+Magazines(dg penghapusan sementara),
+Installments(dg penghapusan sementara),
+#####################################################################################################
+update terakhir 1 nov 2012 oleh puji@padi.net.id
+#####################################################################################################
+
+Auto moderation
+advertising OK
+news OK

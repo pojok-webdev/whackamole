@@ -1,0 +1,6 @@
+.normal{
+	cursor: url(cursors/hammer1.png);
+}
+.hit{
+	cursor: url(cursors/hammer2.png);
+}
